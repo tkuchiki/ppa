@@ -1,0 +1,90 @@
+Package: alp
+Version: 1.0.21-1
+Architecture: amd64
+Maintainer: tkuchiki
+Filename: ./alp_1.0.21-1_amd64.deb
+Size: 3301826
+MD5sum: b04cc5e8411c298f4e30c0725415e0a7
+SHA1: 60ec22654a711ff0a201d286205a3f9f4c76e56a
+SHA256: 428d9ed6390dcba6c41550ed6f3859b19b6b9e45f70abd069711801f825055b7
+Description: Access Log Profiler
+
+Package: alp
+Version: 1.0.21-1
+Architecture: arm64
+Maintainer: tkuchiki
+Filename: ./alp_1.0.21-1_arm64.deb
+Size: 2962182
+MD5sum: 592d0cf91f87ebfafbc0ccca3f575eec
+SHA1: 9f383dff1bfa460ecb086e35790e5a802c7a9e6c
+SHA256: 1f748adc02e6ee27b9e75d9e2a29853a22666de004f31edcb9ec0ee3085fd54c
+Description: Access Log Profiler
+
+Package: pprotein
+Version: 1.2.4-1
+Architecture: amd64
+Maintainer: tkuchiki
+Depends: graphviz, gv, alp, slp
+Filename: ./pprotein_1.2.4-1_amd64.deb
+Size: 5609936
+MD5sum: 30ab5a5344164d19a52cdf7c677ebbeb
+SHA1: 59506c642ac4514559b3bf6a755cfa574dfa73ec
+SHA256: b17c5fd53d98184d482e025f08311873ce6ce3d0e3a9904a37d183728890ebd1
+Description: Performance monitoring utilities for API server written in Go, works with pprof/fgprof/alp/slp
+
+Package: pprotein
+Version: 1.2.4-1
+Architecture: arm64
+Maintainer: tkuchiki
+Depends: graphviz, gv, alp, slp
+Filename: ./pprotein_1.2.4-1_arm64.deb
+Size: 5037400
+MD5sum: b72c88ccf1a98daad0db9433d80d5202
+SHA1: c3a98b08ba90bbe9bde7d12a315428b6df1a7c0e
+SHA256: a5a960cf6d55cfd1a16631a5f04ae946c18019c54a8f40bdfb85cd4f7428c7a5
+Description: Performance monitoring utilities for API server written in Go, works with pprof/fgprof/alp/slp
+
+Package: pprotein-agent
+Version: 1.2.4-1
+Architecture: amd64
+Maintainer: tkuchiki
+Filename: ./pprotein-agent_1.2.4-1_amd64.deb
+Size: 2732188
+MD5sum: 400f0fe6712e9351411ef4e20c0e9dd9
+SHA1: 66b17f974a07ca2edf83a761c44bdcb61513d4a2
+SHA256: 7831cf25af028000f7447f31ee2b80911e51bd53f101944296aef455a9b5663f
+Description: pprotein-agent is collecting logs and metrics for pprotein
+
+Package: pprotein-agent
+Version: 1.2.4-1
+Architecture: arm64
+Maintainer: tkuchiki
+Filename: ./pprotein-agent_1.2.4-1_arm64.deb
+Size: 2458424
+MD5sum: a7037f5f38a410cc603d4eab96fad370
+SHA1: 0c597f786ea89fd847da54b8d8e9a52b1e124638
+SHA256: 02f42944b21dbd60941eae5320f5303dc369b2a81792066da6b956804815893b
+Description: pprotein-agent is collecting logs and metrics for pprotein
+
+Package: slp
+Version: 0.2.1-1
+Architecture: amd64
+Maintainer: tkuchiki
+Filename: ./slp_0.2.1-1_amd64.deb
+Size: 5640018
+MD5sum: 827badb7ee63a141d06bd41e66e52b30
+SHA1: f87bff4d32fef36c4b405853cfc3a284f820c34d
+SHA256: ba72af3b330ae6bffd114d9522703ceac4b55d304069041191ffdd34fd5837c3
+Description: SlowLog Profiler for MySQL and PostgreSQL
+
+Package: slp
+Version: 0.2.1-1
+Architecture: arm64
+Maintainer: tkuchiki
+Filename: ./slp_0.2.1-1_arm64.deb
+Size: 5125944
+MD5sum: 5e0dc573a874b1446325b57c48eb95fe
+SHA1: f6587ae302c83c21f30a02754a31c6c1005dcb6f
+SHA256: de20876e1cbc74b327ab5799d02c5c720e475814e82c21840a5cb5414a7ee371
+Description: SlowLog Profiler for MySQL and PostgreSQL
+
